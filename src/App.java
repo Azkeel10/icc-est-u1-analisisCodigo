@@ -1,20 +1,16 @@
+
+
 public class App {
     public static void main(String[] args) {
+        System.out.println("----------Programa Funcionando----------");
 
+        Bechmarking bechmarking = new Bechmarking(); 
+
+//-------------------------------------------------------------------------------------------------------------
         MetodosOrdenamiento ordenador = new MetodosOrdenamiento();
         int[] arregloBurbuja = { 34, 2, 10, 6, 7, 5, 1, 15 };
         int[] arregloSeleccion = { 34, 2, 10, 6, 7, 5, 1, 15 };
         int[] arregloInsercion = { 34, 2, 10, 6, 7, 5, 1, 15 };
-
-        // Insctucciones:
-        // Todas las llamadas a los metodos deberan estar descomentadas y se debera
-        // poder ejecutar
-        // todo el poreycto sin error al finalizar la practica
-
-        /// Consejo descomentar metodo por metodo para que puedan ir provando cada uno
-        /// de ellos y resolviendo.
-
-        /// Anotar en cada metodo el error encontrado y como lo cambio en TEXTO
 
         // Metodo burbujaTradicional
         int[] arregloBurbujaOrdenado1 = ordenador.burbujaTradicional(arregloBurbuja);
@@ -77,6 +73,6 @@ public class App {
         System.out.println(
         "Resultado Incersion Metodo 3: " +
         java.util.Arrays.toString(arregloInsercionOrdenado3));
-
+        
     }
 }
